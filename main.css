@@ -1,0 +1,56 @@
+/* global */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    max-width: 1360px;
+    margin: auto;
+
+}
+
+/* header */
+#img{
+    width: 100%;
+    position: relative;    
+
+}
+.nav-menu{
+    list-style: none;
+    display: inline-flex;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+
+}
+
+.nav-menu a{
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.cube1{
+    margin: 8px 10px;
+    font-size: 1.5rem;
+}
+.user1{
+    margin: 8px 10px;
+    font-size: 1.5rem;
+    color:white;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+/* nav responsive for mobile */
+
